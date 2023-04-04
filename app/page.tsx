@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "./page.module.css";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -34,6 +35,9 @@ export default function Home() {
       <h1 className={inter.className}>Hello</h1>
 
       <h2 className={inter.className}>Welcome to...</h2>
+
+      <br />
+      <Link href="/about">Go to About Page</Link>
 
       <div className={styles.center}>
         <Image
