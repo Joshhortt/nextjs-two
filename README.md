@@ -1,16 +1,14 @@
-# Next.js One
+# Next.js Two
 
 ---
 
 ## 🔰 Next.js 13 for Beginners Series
 
-Learn how to get Next.js version 13 set up and installed for the rest of the beginner tutorial series.
-
-In this series, we’re going through the basics of learning the static site generator, [Next.js](https://nextjs.org/).
+In this series, we’re continuing through the basics of learning the new features of the static site generator, [Next.js](https://nextjs.org/).
 
 Read the related Blog article for this repository:
 
-[![Getting Started with Next.js: A Comprehensive Guide to Building Your First Application](https://cdn.hashnode.com/res/hashnode/image/upload/v1680022146245/sMDAUiU02.png?auto=compress)](https://creativelightbox.net/getting-started-with-nextjs-a-comprehensive-guide-to-building-your-first-application)
+[![Take Your Next.js 13 App to the Next Level with New Routing Enhancements, Dynamic Layouts, and Efficient Links](https://cdn.hashnode.com/res/hashnode/image/upload/v1680630447745/SNkawxhgz.png?auto=compress)](https://creativelightbox.net/take-your-nextjs-13-app-to-the-next-level-with-new-routing-enhancements-dynamic-layouts-and-efficient-links)
 
 ## ✅ Author Links
 
@@ -28,7 +26,7 @@ Read the related Blog article for this repository:
 
 ## 🚀 Description
 
-This repository **nextjs-one** is referenced as the first part of the Next.js 13 for Beginners tutorial series.
+This repository **nextjs-two** is referenced as the second part of the Next.js 13 for Beginners tutorial series.
 
 ### 🎒 Prerequisites
 
@@ -57,13 +55,13 @@ This repository **nextjs-one** is referenced as the first part of the Next.js 13
 
 ## 💻 Getting started
 
-We’ll go through installing Next.js 13
+We'll dig deeper and look at how we can construct pages and layouts in the new [Next.js 13](https://nextjs.org/) **app directory**, and we'll also look at some basic **routing**.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## ➕ Source Code
 
-- 🔗 [Part 1 - Getting Setup in Next.js](https://github.com/Joshhortt/nextjs-one)
+- 🔗 [Part 2 - Routing, Layouts and Links in Next.js](https://github.com/Joshhortt/nextjs-two)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -71,11 +69,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ```
 🟨
-    nextjs-one
+    nextjs-two
     |
     ├── .next
     |
     ├─ app
+    |   ├── about
+    |   |   ├── layout.tsx
+    |   |   └── page.tsx
+    |   |
     |   └── api
     |       ├── hello
     |       |   └──route.ts
@@ -130,7 +132,13 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## ✏️ Editing
 
-3️⃣ Start editing the page by modifying `app/page.tsx`. The page auto-updates instantly as you edit the file.
+1️⃣ Start editing the page by modifying `app/page.tsx`. The page auto-updates instantly as you edit the file.
+
+2️⃣ Start editing the page by modifying `about/page.tsx`. The page auto-updates instantly as you edit the file.
+
+3️⃣ Start editing the layout by modifying `app/layout.tsx`. The page auto-updates instantly as you edit the file.
+
+4️⃣ Start editing the layout by modifying `about/layout.tsx`. The page auto-updates instantly as you edit the file.
 
 ## 🎓 Learn More
 
